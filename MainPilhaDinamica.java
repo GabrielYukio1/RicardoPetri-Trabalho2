@@ -21,15 +21,15 @@ public class MainPilhaDinamica {
         System.out.println("Contem Pedro? " + pilha.contem("Pedro"));
 
         pilha.substituir("Ana", "Julia");
-        System.out.println("Após substituir Ana por Julia:");
+        System.out.println("Apos substituir Ana por Julia:");
         pilha.exibir();
 
         System.out.println("Desempilhado: " + pilha.desempilhar());
-        System.out.println("Após desempilhar:");
+        System.out.println("Apos desempilhar:");
         pilha.exibir();
 
         pilha.limpar();
-        System.out.println("Após limpar:");
+        System.out.println("Apos limpar:");
         pilha.exibir();
     }
 }
